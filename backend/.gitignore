@@ -1,0 +1,73 @@
+# =====================
+# Maven / Build files
+# =====================
+HELP.md
+target/
+build/
+out/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =====================
+# IDE - IntelliJ IDEA
+# =====================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =====================
+# Eclipse / STS
+# =====================
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# =====================
+# NetBeans
+# =====================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# Environment variables (IMPORTANT)
+# NEVER push secrets
+# =====================
+.env
+application.properties
+application.yml
+
+# =====================
+# React / Frontend (if inside same repo)
+# =====================
+node_modules/
+dist/
+build/
