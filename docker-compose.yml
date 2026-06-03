@@ -14,6 +14,7 @@ services:
 
   backend:
     build: ./backend
+    container_name: inventory-backend
     ports:
       - "8080:8080"
     environment:
@@ -25,6 +26,7 @@ services:
 
   frontend:
     build: ./frontend
+    container_name: inventory-frontend
     ports:
       - "5173:5173"
     depends_on:
