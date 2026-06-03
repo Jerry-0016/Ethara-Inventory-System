@@ -58,19 +58,13 @@ Thumbs.db
 logs/
 
 # =====================
-# Environment variables (IMPORTANT)
-# NEVER push secrets
+# Environment variables
 # =====================
 .env
-application.properties
-application.yml
 
 # =====================
-# React / Frontend (if inside same repo)
+# React / Frontend
 # =====================
 node_modules/
 dist/
 build/
-
-
-.DS_Store
