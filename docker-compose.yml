@@ -26,7 +26,7 @@ services:
 
   frontend:
     build: ./frontend
-    container_name: inventory-frontend
+    container_name: frontend
     ports:
       - "5173:5173"
     depends_on:
