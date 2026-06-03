@@ -13,4 +13,3 @@ export const createCustomer = (data) => api.post("/api/customers", data);
 // ORDERS
 export const getOrders = () => api.get("/api/orders");
 export const createOrder = (data) => api.post("/api/orders", data);
-s;
